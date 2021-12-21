@@ -1,0 +1,297 @@
+:root
+{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+{body
+    margin: 0px;
+    padding: 0px;
+}
+#mainHeader > h1
+{
+    color: royalblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+   
+    margin: 5px;
+   
+}
+#mainNav
+{
+    background-color: rgba(127, 255, 212, 0.014);
+    position: static;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 1opx;
+
+}
+#mainNav ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 1px;
+    padding-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 90px;
+
+}
+#mainHeader
+{
+height: 60px;
+position: fixed;
+top: 0%;
+width: 100%;
+display: grid;
+grid-template-columns: 80px 1fr 500px;
+}
+#mainfooter
+{
+    height: 120px;
+    
+    bottom: 0px;
+    width: 100%;
+}
+#mylogo
+{
+width: 80px;
+padding: 5px;
+border: 0px;
+z-index: 1000;
+position: relative;
+}
+#mainNav a
+{
+    text-decoration: none;
+}
+
+#mainHeader, #mainfooter
+{
+    background-color: wheat;
+}
+#pageContent
+{
+    background:url("logo.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 80% 20%;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+.pic
+{
+    margin: auto;
+    height: 500px;
+    border-radius: 30px;
+    display: block;
+    max-width: auto;
+    width: auto;
+}
+main
+{
+    background-color: rgb(240, 219, 240);
+    padding: 20px;
+}
+
+#slogan
+{
+    text-align: center;
+    font-size: 2em;
+    color: skyblue;
+    text-overflow: ellipsis;
+    font-family: inherit;
+}
+#colloneg
+{
+    text-align: center;
+   color: rgb(182, 96, 86);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: rebeccapurple;
+    border-style: outset;
+    font-family: monospace;
+}
+#two
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: rebeccapurple;
+    border-style: inset;
+    font-family: monospace;
+}
+#wifi
+{
+    list-style-image: url("wifi.svg");
+}
+#baby
+{
+    list-style-image: url("babysitter.svg");
+}
+#piscine
+{
+    list-style-image: url("pool.svg");
+}
+#sallesport
+{
+    list-style-image: url("gym.svg");
+}
+#parking
+{
+    list-style-image: url("parking.svg");
+}
+#lis1
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 90px;
+
+}
+#coin
+{
+    background-color: rgba(240, 83, 240, 0.548);
+    padding: 20px;
+}
+#coinNav ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 1px;
+    padding-top: 25px;
+}
+#coinNav a
+{
+    text-decoration: none;
+}
+#chanm
+{
+    background-color: khaki;
+}
+#salle
+{
+    background-color: khaki;
+}
+#sertret
+{
+    background-color: khaki;
+}
+#service
+{
+    background-color: rgb(87, 63, 224);
+    color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#titkont
+{
+    text-align: center;
+    padding: inherit;
+    font-size: 30px;
+    color: lightsalmon;
+}
+#snom
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(201, 231, 64);
+    text-transform: uppercase;
+    background-attachment: fixed;
+}
+#prenom
+{
+    border: outset;
+    border-color: orange;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+#nom
+{
+    border: outset;
+    border-color: orange;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+#mail
+{
+    border: outset;
+    border-color: orange;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+}
+#message1
+{
+    border: outset;
+    border-color: orange;
+    margin: auto;
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+}
+#Envoyer
+{
+    border: outset;
+    border-color: orange;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px; 
+}
+#sex
+{
+    border: outset;
+    border-color: orange;
+}
+#facebook
+{
+    list-style-image: url("facebook.png");
+    align-items: flex-end;
+}
+#twitter
+{
+    list-style-image: url("twitter.png");
+}
+#foot
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    padding-left: 90px;  
+    padding-top: -50px;
+    position: static;
+    margin-top: 80px;
+}
+#mainfooter
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}

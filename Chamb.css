@@ -1,0 +1,145 @@
+:root
+{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+{body
+    margin: 0px;
+    padding: 0px;
+}
+#mainHeader > h1
+{
+    color: royalblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+   
+    margin: 5px;
+   
+}
+#mainNav
+{
+    background-color: rgba(127, 255, 212, 0.014);
+    position: static;
+    width: 100%;
+    top: 50%;
+    padding-bottom: 1opx;
+
+}
+#mainNav ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding-bottom: 1px;
+    padding-top: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 90px;
+
+}
+#mainHeader
+{
+height: 60px;
+position: fixed;
+top: 0%;
+width: 100%;
+display: grid;
+grid-template-columns: 80px 1fr 500px;
+}
+#mainfooter
+{
+    height: 120px;
+    
+    bottom: 0px;
+    width: 100%;
+}
+#mylogo
+{
+width: 80px;
+padding: 5px;
+border: 0px;
+z-index: 1000;
+position: relative;
+}
+#mainNav a
+{
+    text-decoration: none;
+}
+
+#mainHeader, #mainfooter
+{
+    background-color: wheat;
+}
+
+section, img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+#lisgal
+{
+    list-style: none;
+}
+
+section p
+{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: fantasy;
+    
+}
+#menu
+{
+    text-align: left;
+    margin: 45px;
+}
+#lisrec
+{
+    list-style: none;
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: aliceblue;
+    color: rgb(240, 163, 48);
+}
+#lisgroup
+{
+    list-style: none;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+#facebook
+{
+    list-style-image: url("facebook.png");
+    align-items: flex-end;
+}
+#twitter
+{
+    list-style-image: url("twitter.png");
+}
+#foot
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    padding-left: 90px;  
+    padding-top: -50px;
+    position: static;
+    margin-top: 80px;
+}
+#mainfooter
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
